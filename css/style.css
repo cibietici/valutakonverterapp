@@ -1,0 +1,31 @@
+body {
+    background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    font-size: 100%;
+}
+
+.fade {
+    width: 100vw;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(
+        180deg,
+        #FFFFFF 4.75%,
+        rgba(217, 217, 217, 0) 86.76%);
+}
+
+h1 {
+    color: #0F4C6F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1rem; 
+}
+
